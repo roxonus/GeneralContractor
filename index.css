@@ -1,0 +1,28 @@
+.body {
+    background-image: url();
+}
+
+header {
+    background-image: url(assets/images/oldwood.jpg);
+    color: rgb(252, 251, 248);
+}
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-family: font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+.bio {
+    margin: 20px;
+    text-align: center;
+    border-style: outset;
+    border-color: rgb(95, 93, 93);
+    border-width: 5px;
+    border-radius: 7px;
+}
