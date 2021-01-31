@@ -1,0 +1,28 @@
+{
+  "name": "GeneralContractor",
+  "version": "1.0.0",
+  "description": "This is a template for building a Contractors website.",
+  "main": "contact.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^15.7.0",
+    "nodemailer": "^6.4.17",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bowerpower85/GeneralContractor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bowerpower85/GeneralContractor/issues"
+  },
+  "homepage": "https://github.com/Bowerpower85/GeneralContractor#readme"
+}
