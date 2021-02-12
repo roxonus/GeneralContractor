@@ -12,11 +12,11 @@ app.use(express.json());
 //     res.sendFile(__dirname + '/public/index.html')
 // })
 
-app.get('/', (req, res) => {
+app.get('/contactform', (req, res) => {
     res.sendFile(__dirname + '/public/contactform.html')
 })
 
-app.post('/', (req, res) => {
+app.post('/contactform', (req, res) => {
     console.log(req.body);
 })
 
