@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+}
+
+/* header {
+    text-align: center;
+    color: white;
+    background: #00ffff;
+    padding: 20px;
+
+} */
+
+.contactform {
+    background-image: url(assets/images/longroad.jpeg);
+    /* margin: 50px 0px 0px 300px; */
+    padding: 70px;
+}
+
+label {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#name {
+    width: 400px;
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    outline: 0;
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+#sub {
+    width: 200px;
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    outline: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
