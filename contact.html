@@ -38,18 +38,18 @@
         </li>
       </ul>
 
-      <form class="contactform">
+      <form action="https://formsubmit.co/drmmasonryllc@gmail.com" method="POST" class="contactform">
         <p class="contact">Request an Estimate:</p>
         <p class="contact">Please include your name, address, phone number and email.</p>
         <label>Name :</label><br>
         <input type="text" class="quote" placeholder="Enter your name here" name="name" id="name"><br><br>
         <label>Email :</label><br>
-        <input type="email" class="quote" placeholder="Enter your email here" name="name" id="name"><br><br>
-        <label>Address :</label><br>
-        <input type="text" class="quote" placeholder="Enter your address here" name="name" id="name"><br><br>
+        <input type="email" class="quote" placeholder="Enter your email here" name="email" id="name" required><br><br>
+        <!-- <label>Address :</label><br>
+        <input type="text" class="quote" placeholder="Enter your address here" name="name" id="name"><br><br> -->
         <label>Message :</label><br>
-        <textarea placeholder="Enter your message here" id="name" cols="50" rows="10"></textarea><br><br>
-        <input type="submit" class="send" value="SEND" id="sub"></button>
+        <textarea placeholder="Enter your message here" name="message" id="name" cols="50" rows="10"></textarea><br><br>
+        <button type="submit" class="send" value="SEND" id="sub"></button>
       </form>
 
    <script src="contact.js"></script> 
